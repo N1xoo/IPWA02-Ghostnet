@@ -1,0 +1,62 @@
+/* Allgemeiner Seitenhintergrund mit sanften Wellen */
+body {
+      background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Wellen am unteren Rand */
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to right, #4a90e2 20%, #78c1f3 50%, #4a90e2 80%);
+    clip-path: polygon(0% 50%, 10% 60%, 20% 50%, 30% 60%, 40% 50%, 50% 60%, 60% 50%, 70% 60%, 80% 50%, 90% 60%, 100% 50%, 100% 100%, 0% 100%);
+}
+
+/* Kopfzeile */
+h1 {
+    color: #003366;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+/* Buttons */
+h:commandButton, input[type="submit"] {
+    background-color: #007BFF; /* Ozeanblau */
+    border: none;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+h:commandButton:hover, input[type="submit"]:hover {
+    background-color: #0056b3; /* Dunkleres Blau beim Hover */
+}
+
+/* Formular-Design */
+form {
+    background: rgba(100, 225, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px; /* Begrenzte Breite */
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+h4{
+	margin-top: 250px;
+}
