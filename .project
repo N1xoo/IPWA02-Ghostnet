@@ -38,7 +38,7 @@
 		<link>
 			<name>src/main/resources/META-INF/beans_4_0.xsd</name>
 			<type>1</type>
-			<location>C:/Users/22rob/OneDrive/Desktop/IU/IPWA02/beans_4_0.xsd</location>
+			<location>beans</location>
 		</link>
 	</linkedResources>
 </projectDescription>
